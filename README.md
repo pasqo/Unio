@@ -34,8 +34,8 @@ void loop () {}
 
 ## AVR Timer Resource Sharing
 The library uses Timer/Counter2 in the ATmega328/ATmega2560 based boards, Timer/Counter3 in the ATmega32U4 based boards, and Timer/Counter1 in standalone ATtiny boards.
-These timers maybe used by Wiring to implement functionality so that functionality will not be available and may conflict with the operation of the library.
-For instance Timer/Counter2 is usedin Wiring to implement the tone() function in boards based on the ATmega328p.
+These timers maybe used by Wiring to implement something so that functionality will not be available and may conflict with the operation of the library.
+For instance Timer/Counter2 is used in Wiring to implement the tone() function in boards based on the ATmega328p.
 
 ## Dependencies
 This library depends on the https://github.com/pasqo/AvrMap library to make the code portable across supported arduino boards and AVR microcontrollers, please install it alongside to the Unio library.
