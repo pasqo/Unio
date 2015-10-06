@@ -26,6 +26,9 @@
 #ifndef UnioLib_h
 #define UnioLib_h
 
+#define PASQO_UNIO_MAJOR 1
+#define PASQO_UNIO_MINOR 0
+
 #include <Arduino.h>
 #include "AvrMap.h"
 
