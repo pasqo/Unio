@@ -2,11 +2,11 @@
 *UNIO Protocol Library for Arduino, AVR 8 bit Microntrollers.*
 
 ## Overview
-UNI/O™ is a one wire bidirectional serial protocol used in Microchip EEPROMs operating at clock frequencies between 10 KHz and 100 KHz.
+UNI/O™ is a one wire bidirectional serial protocol used in Microchip EEPROMs operating at clock frequencies between 10 kHz and 100 kHz.
 
 This library is an implementation of the protocol for Arduino boards based on 8 bit AVR microntrollers as well as standalone AVR microntrollers.
 
-The library features a small size footprint and a robust implementation that decouples code and serial hardware communication timing by synchronizing IO operations to an internally synthesized clocked derived from one of the available 8 bit timers in the target AVR. This enables operation at the full operating frequency range, up to 100KHz.
+The library features a small size footprint and a robust implementation that decouples code and serial hardware communication timing by synchronizing IO operations to an internally synthesized clock derived from one of the available 8 bit timers in the target AVR. This enables operation at the full operating frequency range, up to 100kHz.
 
 The API includes all the main memory operations outlined in the [Microchip 11XX010 EEPROM family datasheet](http://www.microchip.com/wwwproducts/Devices.aspx?product=11LC010), as well as other common operations such as memory dump, load, etc.
 
